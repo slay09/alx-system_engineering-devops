@@ -1,2 +1,2 @@
 #!/bin/bash
-output=$(cd "$(dirname "$(readlink -f "$0")")" | pwd) printf "Current working directory: %-88s\n" "$output"
+output=$(cd "$(dirname "$(readlink -f "$0")")" | pwd) printf "Current working directory: %-60s\n" "$output"
