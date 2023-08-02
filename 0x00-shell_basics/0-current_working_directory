@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Current working directory: $(pwd)"
+echo "Current working directory: $(echo "$(cd "$(dirname "$(readlink -f "$0")")" && pwd)")"
