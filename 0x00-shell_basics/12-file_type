@@ -1,2 +1,2 @@
 #!/bin/bash
-file -i /tmp/iamafile
+readelf -h /tmp/iamafile | grep 'Type:\|Class:\|Machine:\|BuildID:\|OS/ABI:\|Interpreter:'
