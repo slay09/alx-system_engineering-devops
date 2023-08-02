@@ -1,2 +1,2 @@
 #!/bin/bash
-cd ..
+cd "$(cat ~/.previous_dir)" && echo "Previous directory: $(cat ~/.previous_dir)"
